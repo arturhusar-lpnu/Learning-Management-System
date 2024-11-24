@@ -1,0 +1,15 @@
+{
+  "name": "Lab3-PWA",
+  "short_name": "Lab3",
+  "description": "This is a sample Progressive Web App for Lab3",
+  "icons": [
+    {
+      "src": "/img/user.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "version": "1.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.7.0",
+    "dotenv": "^16.4.5",
+    "npm": "^10.9.0",
+    "nuxt": "^3.14.159",
+    "pinia": "^2.2.6",
+    "socket.io-client": "^4.8.1",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-datepicker": "^0.4.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.2"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
